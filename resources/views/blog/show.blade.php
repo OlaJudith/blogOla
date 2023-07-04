@@ -1,3 +1,4 @@
+<!-- Expand each blog -->
 @extends('layouts.app')
 
 @section('content')

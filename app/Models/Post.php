@@ -26,4 +26,9 @@ class Post extends Model
             ]
         ];
     }
+// '
+//     public function diffForHumans()
+//     {
+
+//     }'
 }

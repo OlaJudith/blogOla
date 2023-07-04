@@ -13,13 +13,17 @@ use App\Http\Controllers\PostsController;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+*/  
 
-Route::get('/', [PagesController::class, 'index']);
+Route::get('/',[\App\Http\Controllers\FrontEndController::class, 'index']);
+
+// Route::get('/', [PagesController::class, 'index']);
 
 Route::resource('/blog', PostsController::class);
 
 Auth::routes();
 
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/catalo',function(){
+    return view('catalo');
+});
 

@@ -65,29 +65,29 @@
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
-                    <a href="/">
-                        Why we love tech
+                    <a href="/catalo">
+                        Funny Videos
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Why we love design
+                    <a href="/catalo">
+                    Inspirational Videos
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Why to use Laravel
+                    <a href="/catalo">
+                        Comics
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Why PHP is the best
+                    <a href="/blog">
+                        Blog
                     </a>
                 </li>
             </ul>
         </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2017-2021 Code With Dary. All Rights Reserved
+        Copyright 2023 Jollific.com. All Rights Reserved
     </p>
 </footer>
